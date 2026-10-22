@@ -1,0 +1,8 @@
+{
+  "name": "ABC Classes - Coaching Institute Template",
+  "description": "High-converting, premium demo website template for Indian coaching institutes preparing students for IIT-JEE, NEET, Foundation, and Board exams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

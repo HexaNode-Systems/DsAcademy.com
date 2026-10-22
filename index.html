@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0B1220" />
+    <!-- Flags that JS is running so scroll-reveal styles may hide content until it animates in.
+         Without this class (no JS) every section renders fully visible. -->
+    <script>document.documentElement.classList.add('js');</script>
+    <title>ABC Classes | Premier IIT-JEE, NEET & Board Coaching Institute</title>
+    <meta
+      name="description"
+      content="Join ABC Classes for top-tier coaching in IIT-JEE, NEET, Foundation & CBSE Boards. Small batches, IITian faculty, personal doubt resolution, and proven results."
+    />
+    <!-- OpenGraph Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ABC Classes" />
+    <meta property="og:title" content="ABC Classes | Premier IIT-JEE, NEET & Board Coaching Institute" />
+    <meta
+      property="og:description"
+      content="Join ABC Classes for top-tier coaching in IIT-JEE, NEET, Foundation & CBSE Boards. Small batches, IITian faculty, personal doubt resolution, and proven results."
+    />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ABC Classes | Premier IIT-JEE, NEET & Board Coaching Institute" />
+    <meta
+      name="twitter:description"
+      content="Join ABC Classes for top-tier coaching in IIT-JEE, NEET, Foundation & CBSE Boards. Small batches, IITian faculty, personal doubt resolution, and proven results."
+    />
+
+    <!-- Google Fonts: Inter (Body) + Plus Jakarta Sans (Headings) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Structured Data (JSON-LD) for EducationalOrganization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "ABC Classes",
+      "description": "Premier coaching institute for IIT-JEE, NEET, CBSE Boards and Olympiad foundations.",
+      "url": "https://abcclasses.example.in",
+      "telephone": "+91-9876543210",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Plot 42, Education Hub, Sector 14",
+        "addressLocality": "Kalyan Nagar, New Delhi",
+        "postalCode": "110001",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "28.6139",
+        "longitude": "77.2090"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "08:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "09:00",
+          "closes": "14:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.youtube.com",
+        "https://www.instagram.com",
+        "https://www.facebook.com"
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-white text-ink antialiased font-sans">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
